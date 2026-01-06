@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Portifólio - Cesar</title>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="brand">
+                    <label for="avatarInput" class="avatar-wrapper" title="Adicionar/alterar foto">
+                        <img id="avatarPreview" src="assets/avatar.svg" alt="Sua foto">
+                    </label>
+                    <h1 class="logo">Cesar — Desenvolvedor</h1>
+                </div>
+
+                <div class="controls">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
+                </div>
+                <input id="avatarInput" type="file" accept="image/*" hidden>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="hero">
+                <h2>Bem-vindo ao meu portifólio</h2>
+                <p>Sou desenvolvedor com experiência em várias linguagens e tecnologias.</p>
+            </section>
+
+            <section id="skills" class="skills">
+                <h3>Minhas linguagens</h3>
+                <p class="subtitle">Linguagens que conheço e domino:</p>
+                <div class="skill-grid">
+                    <div class="skill" data-skill="Java">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <img src="assets/java.svg" alt="Java" class="skill-icon">
+                                <strong>Java</strong>
+                            </div>
+                            <span class="percent">90%</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="--value:90%"></div></div>
+                    </div>
+
+                    <div class="skill" data-skill="Python">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <img src="assets/python.svg" alt="Python" class="skill-icon">
+                                <strong>Python</strong>
+                            </div>
+                            <span class="percent">65%</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="--value:85%"></div></div>
+                    </div>
+
+                    <div class="skill" data-skill="JavaScript">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <img src="assets/js.svg" alt="JavaScript" class="skill-icon">
+                                <strong>JavaScript</strong>
+                            </div>
+                            <span class="percent">80%</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="--value:80%"></div></div>
+                    </div>
+
+                    <div class="skill" data-skill="HTML">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <img src="assets/html.svg" alt="HTML" class="skill-icon">
+                                <strong>HTML</strong>
+                            </div>
+                            <span class="percent">95%</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="--value:95%"></div></div>
+                    </div>
+
+                    <div class="skill" data-skill="CSS">
+                        <div class="skill-header">
+                            <div class="skill-info">
+                                <img src="assets/css.svg" alt="CSS" class="skill-icon">
+                                <strong>CSS</strong>
+                            </div>
+                            <span class="percent">92%</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="--value:92%"></div></div>
+                    </div>
+                </div>
+                <p class="hint">Clique em uma linguagem para ver mais informações.</p>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">© 2026 Cesar — Feito por mim</div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+</body>
+</html>

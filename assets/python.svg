@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#fff"/>
+  <path d="M22 18c6-6 20-6 20 4v6H30v-4c0-6-8-6-8-6z" fill="#306998"/>
+  <path d="M42 46c-6 6-20 6-20-4v-6h12v4c0 6 8 6 8 6z" fill="#ffd343"/>
+  <text x="32" y="54" font-size="9" text-anchor="middle" fill="#333" font-family="Arial, Helvetica, sans-serif">Python</text>
+</svg>
